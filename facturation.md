@@ -1,23 +1,17 @@
 # Facturation
 
-
-## Liste des demandes de tâcherons
+## Liste des factures périodiques
 
 Cette section permet de consulter et rechercher la liste complète des demandes de tâcherons enregistrées dans le système. Chaque ligne du tableau contient les informations suivantes :
 
--Référence
--Création
--Navire
--Chantier
--Opération
--Demandeur
--N° Conteneur 
--Produit
+-Date Facture
+-Reférence
+-Societe
+-Montant TTC
+-Période
 -Quantité
 -Statut
 -Actions
-
-![factures periodiques](fact_periodiq.png)
 
 ### Filtres de recherche
 
@@ -31,23 +25,15 @@ Plusieurs filtres sont disponibles pour faciliter la recherche d'une demande de 
 ### Résultats
 
 La liste affiche les informations suivantes pour chaque tâcheron:
-- **Référence** : Le numéro de demande attribué.
-- **Nature Opération** : La nature de l'opération.
-- **Date début prévu** : La date de début prévu.
-- **Date fin prévu** : La date de fin prévu.
+- **Société** : La nature de l'opération.
+- **Début Période** : La date de début prévu.
+- **Fin Période** : La date de fin prévu.
+- **Facture** : Le numéro de demande attribué.
 
-## Modifier une demande de tâcheron 
-Pour modifier les informations d'une demande de tâcheron, cliquez sur le bouton "Modifier" et changer les informations au niveau des champs du formulaire voulu.
-Une fois les modifications apportées, cliquez sur "Mettre à jour" pour enregistrer les changements.
-
-### Suppression d'une demande de tâcheron
-Pour supprimer une demande de tâcheron :
-1. Cliquez sur le bouton Annuler (avec une icône de poubelle) situé dans la colonne "Actions" de la ligne correspondant à la demande de tâcheron que vous souhaitez supprimer.
-2. Une confirmation peut être demandée.
-3. La demande de tâcheron sera supprimée de la liste.
+![Liste des demandes de tâcherons en attente](fact_periodiq.png)
 
 
-## Liste des demandes de tâcherons en attente
+## Liste des Factures à Venir
 
 La page de liste des demandes Dockers affiche toutes les demandes Dockers en attente dans un tableau. Chaque ligne du tableau contient les informations suivantes :
 -Référence
@@ -62,7 +48,7 @@ La page de liste des demandes Dockers affiche toutes les demandes Dockers en att
 -Statut
 -Actions
 
-![Liste des demandes de tâcherons en attente](.png)
+![Liste des demandes de tâcherons en attente](fact_periodiq.png)
 
 ### Filtres de recherche
 

@@ -1065,20 +1065,21 @@ Cette section permet de gérer la paie des tâcherons embauchés.
 
 Plusieurs filtres sont disponibles pour faciliter la recherche :
 
-- **Nom** : Rechercher par le nom du tâcheron.
-- **Prénom** : Rechercher par le prénom du tâcheron.
-- **Période de paie** : Rechercher par la période de paie.
+- **Référence** : Rechercher par la référence de la demande.
+- **Société** : Rechercher par le nom de la société.
+- **Nature Opération** : Rechercher par la nature de l'opération.
+- **Date début** : Rechercher par la date de début.
+- **Date fin** : Rechercher par la date de fin.
 
 #### Résultats
 
 La liste affiche les informations suivantes pour chaque tâcheron :
 
-- **Nom** : Le nom du tâcheron.
-- **Prénom** : Le prénom du tâcheron.
-- **Heures travaillées** : Le nombre d'heures travaillées pendant la période.
-- **Taux horaire** : Le taux horaire du tâcheron.
-- **Montant dû** : Le montant total à payer au tâcheron pour la période.
-- **Actions** : Un bouton d'action permettant de procéder au paiement du tâcheron.
+**Référence** : La référence de la demande.
+**Société** : Le nom de la société.
+**Nature Opération** : La nature de l'opération. 
+**Date début** : La date de début de la période.
+**Date fin** : La date de fin de la période.
 
 ![Paie Tacheron](paie_tacheron.png)
 
@@ -1103,3 +1104,372 @@ La page de liste des travailleurs affiche tous les navires existantes dans le sy
 On peut imprimer ou voir la fiche de paie d'un travailleur donné au bout d'une période donnée en entrant la date de début et la date de fin et en cliquant sur le bouton imprimer de la colonne "Action" sur la ligne du travailleur.
 
 ![fiche de paie d'un travailleurs](fichepaie.png)
+
+# Facturation
+
+## Liste des factures périodiques
+
+Cette section permet de consulter la liste complète factures périodiques enregistrées dans le système. Chaque ligne du tableau contient les informations suivantes :
+
+-Date Facture
+-Référence
+-Société
+-Montant TTC
+-Période
+-Statut
+-Actions
+
+### Filtres de recherche
+
+Plusieurs filtres sont disponibles pour faciliter la recherche d'une demande de tâcheron spécifique : Cliquer sur le bouton "Cliquez ici pour faire une recherche avancée" pour rechercher.
+
+- **Société** : Rechercher par le nom de la société.
+- **Début période** : Rechercher par la date de début.
+- **Fin période** : Rechercher par la date de fin.
+- **Facture** : Rechercher par la facture.
+
+### Résultats
+
+La liste affiche les informations suivantes pour chaque tâcheron:
+- **Société** : Le nom de la société.
+- **Début Période** : La date de début de la période.
+- **Fin Période** : La date de fin de la période.
+- **Facture** : Le numéro de la facture.
+
+![Liste des factures périodiques](fact_periodiq.png)
+
+
+## Liste des Factures à Venir
+
+La page de liste des factures à venir affiche toutes les factures à venir, dans un tableau. Chaque ligne du tableau contient les informations suivantes :
+-Date
+-Salaire
+-CNSS
+-VPS
+-Total
+-Origine
+
+![Liste des factures à venir](fact_venir.png)
+
+### Filtres de recherche
+
+Plusieurs filtres sont disponibles pour faciliter la recherche d'une facture à venir
+
+- **Société** : Rechercher par le nom de la société.
+- **Début période** : Rechercher par la date de début.
+- **Fin période** : Rechercher par la date de fin.
+- **Facture** : Rechercher par le numéro facture.
+
+### Résultats
+
+La liste affiche les informations suivantes pour chaque demande de tâcheron en attente :
+
+- **Société** : Le nom de la société.
+- **Début période** : La date de début.
+- **Fin période** : La date de fin.
+- **Facture** : La facture de la demande.
+
+
+# Administration
+
+## Gestion des utilisateurs
+
+Cette section permet de consulter la liste complète des utilisateurs enregistrés dans le système. Chaque ligne du tableau contient les informations suivantes :
+
+-Nom
+-Prénoms
+-Nom d'utilisateur
+-Email
+-Structure
+-Role
+-Statut
+-Actions (Editer, Désactiver, Supprimer)
+
+### Filtres de recherche
+
+Plusieurs filtres sont disponibles pour faciliter la recherche d'un utilisateur spécifique : Cliquer sur le bouton "Cliquez ici pour faire une recherche avancée" pour rechercher.
+
+- **Nom** : Rechercher par le nom de l'utilisateur.
+- **Prénoms** : Rechercher par les prénoms de l'utilisateur.
+- **Nom d'utilisateur** : Rechercher par le nom d'utilisateur.
+- **Email** : Rechercher par email.
+- **Structure** : Rechercher par la structure.
+- **Role** : Rechercher par le rôle.
+- **Statut** : Rechercher par le statut.
+
+### Résultats
+
+La liste affiche les informations suivantes pour l'utilisateur recherché:
+- **Nom** : Le nom de l'utilisateur.
+- **Prénoms** : Prénoms de l'utilisateur.
+- **Nom d'utilisateur** : Le nom d'utilisateur.
+- **Email** : L'email de l'utilisateur.
+- **Structure** : La structure de l'utilisateur.
+- **Role** : Le rôle de l'utilisateur.
+- **Statut** : Le statut de l'utilisateur recherché.
+0
+!0[Liste des utilisateurs](.png)
+
+### Ajouter un utilisateur
+Pour ajouter une nouvel utilisateur, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire de création et ensuite vous cliquerez sur le bouton "Enregistrer"
+
+
+
+## Gestion des rôles
+
+La page de liste des rôles affiche tous les rôles en attente dans un tableau. Chaque ligne du tableau contient les informations suivantes :
+- **Nom** 
+- **Description** 
+- **Nombre de permisions**
+- **Actions** 
+
+![Liste des rôles](.png)
+
+### Filtres de recherche
+
+Plusieurs filtres sont disponibles pour faciliter la recherche d'un rôle : Cliquer sur le bouton "Cliquez ici pour faire une recherche avancée" pour rechercher.
+
+- **Nom** : Rechercher par la référence.
+- **Description** : Rechercher par le nom de la société.
+- **Nombre de permisions** : Rechercher par le nom du navire.
+
+### Résultats
+
+La liste affiche les informations suivantes pour chaque demande de tâcheron en attente :
+- **Nom** : La nom du rôle.
+- **Description** : Description du rôle.
+- **Nombre de permisions** : Le nombre de permissions.
+
+### Ajouter un rôle
+Pour ajouter une nouveau rôle, cliquez sur le bouton d'ajout "Nouvelle demande" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer"
+
+
+## Grille Dockers
+
+Cette section permet de consulter la liste des grilles dockers enregistrés dans le système. Chaque ligne du tableau contient les informations suivantes :
+
+-Shift
+-Fonction travailleur
+-Type opération
+-Type jour
+-Taux
+-Actions
+
+### Filtres de recherche
+
+Plusieurs filtres sont disponibles pour faciliter la recherche d'une grille docker spécifique : Cliquer sur le bouton "Cliquez ici pour faire une recherche avancée" pour rechercher.
+
+- **Shift** : Rechercher par le nom de l'utilisateur.
+- **Fonction travailleur** : Rechercher par les prénoms de l'utilisateur.
+- **Type opération** : Rechercher par le nom d'utilisateur.
+- **Type jour** : Rechercher par email.
+- **Taux** : Rechercher par la structure.
+
+### Résultats
+
+La liste affiche les informations suivantes pour la grille docker recherchée:
+- **Shift** : Shift de la grille docker.
+- **Fonction travailleur** : La fonction du travailleur.
+- **Type opération** : Le type d'opération.
+- **Type jour** : Le type jour.
+- **Taux** : Le taux de la grille docker.
+
+![Liste grille docker](.png)
+
+### Ajouter une nouvelle grille docker
+Pour ajouter une nouvelle grille docker, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
+
+
+## Barèmes tâcherons
+
+Cette section permet de consulter la liste des barèmes tâcherons enregistrés dans le système. Chaque ligne du tableau contient les informations suivantes :
+
+-Nature opération
+-Nature produit
+-Prix unitaire
+-Actions
+
+### Filtres de recherche
+
+Plusieurs filtres sont disponibles pour faciliter la recherche d'une grille docker spécifique : Cliquer sur le bouton "Cliquez ici pour faire une recherche avancée" pour rechercher.
+
+- **Nature opération** : Rechercher par la nature de l'opération.
+- **Nature produit** : Rechercher par la nature du produit.
+- **Prix unitaire** : Rechercher par le prix unitaire.
+
+### Résultats
+
+La liste affiche les informations suivantes pour le barème tâcheron recherché :
+- **Nature opération** : La nature de l'opération.
+- **Nature produit** : La nature du produit.
+- **Prix unitaire** : Le prix unitaire.
+
+![Liste des barèmes tâcherons](.png)
+
+### Ajouter un nouveau barème tâcheron
+Pour ajouter un nouveau barème tâcheron, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
+
+
+## Equipe tâcheron
+
+Cette section permet de consulter la liste des équipes  de tâcherons enregistrées dans le système. Chaque ligne du tableau contient les informations suivantes :
+
+-Code
+-Nom 
+-Prénoms
+-Téléphone
+-Date
+-Statut
+-Actions
+
+### Filtres de recherche
+
+Plusieurs filtres sont disponibles pour faciliter la recherche d'une grille docker spécifique : Cliquer sur le bouton "Cliquez ici pour faire une recherche avancée" pour rechercher.
+
+- **Code** : Rechercher par le code.
+- **Nom responsable** : Rechercher par le nom du responsable.
+- **Prénom responsable** : Rechercher par le prénom du responsable.
+- **Téléphone** : Rechercher par le numéro de téléphone.
+
+### Résultats
+
+La liste affiche les informations suivantes pour l'équipe tâcheron recherchée :
+- **Code** : Le code de l'équipe tâcheron.
+- **Nom responsable** : Le nom du responsable.
+- **Prénom responsable** : Le prénom du responsable.
+- **Téléphone** : Le numéro de téléphone.
+
+![Liste des équipes tâcherons](.png)
+
+### Ajouter une nouvelle équipe tâcheron
+Pour ajouter une nouvelle équipe tâcheron, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
+
+
+## Equipe type docker
+
+Cette section permet de consulter la liste des équipes type docker enregistrées dans le système. Chaque ligne du tableau contient les informations suivantes :
+
+-Code
+-Description
+-Taille
+-Date
+-Statut
+-Actions
+
+### Filtres de recherche
+
+Plusieurs filtres sont disponibles pour faciliter la recherche d'une équipe docker docker spécifique : Cliquer sur le bouton "Cliquez ici pour faire une recherche avancée" pour rechercher.
+
+- **Code** : Rechercher par le code.
+- **Description** : Rechercher par la description de l'équipe
+- **Taille** : Rechercher par la taille.  
+- **Date** : Rechercher par la date d'enrégistrement.
+- **Statut** : Rechercher par le statut de l'équipe.
+
+### Résultats
+
+La liste affiche les informations suivantes pour l'équipe tâcheron recherchée :
+- **Code** : Le code.
+- **Description** : La description de l'équipe.
+- **Taille** : La taille.  
+- **Date** : La date d'enrégistrement.
+- **Statut** : Le statut de l'équipe.
+
+![Liste des équipes types docker](.png)
+
+### Ajouter une nouvelle équipe type docker
+Pour ajouter une nouvelle équipe type docker, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
+
+
+## Paramétrage système
+
+Cette section permet de consulter la liste des paramétrages système enregistrées dans le système. Chaque ligne du tableau contient les informations suivantes :
+
+-Code
+-Nom 
+-Prénoms
+-Téléphone
+-Date
+-Statut
+-Actions
+
+### Filtres de recherche
+
+Plusieurs filtres sont disponibles pour faciliter la recherche d'un paramétrage système spécifique : Cliquer sur le bouton "Cliquez ici pour faire une recherche avancée" pour rechercher.
+
+- **Code** : Rechercher par le code.
+- **Nom du responsable** : Rechercher par la description de l'équipe
+- **Prénoms du responsable** : Rechercher par la taille.  
+- **Téléphone** : Rechercher par la taille.  
+- **Date** : Rechercher par la date d'enrégistrement.
+- **Statut** : Rechercher par le statut.
+
+### Résultats
+
+La liste affiche les informations suivantes pour le paramétrage système recherché :
+- **Code** : Le code.
+- **Nom du responsable** : Le nom du responsable
+- **Prénoms du responsable** : Prénoms du responsable.  
+- **Téléphone** : Le numéro de téléphone.  
+- **Date** : La date d'enrégistrement.
+- **Statut** : Le statut du paramétrage système.
+
+![Liste des paramétrages sytème](.png)
+
+### Ajouter un nouveau paramétrage système
+Pour ajouter un nouveau paramétrage système, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
+
+
+# EPI
+
+## Gestion des EPI
+
+Cette section permet de consulter la liste des epis enregistrés dans le système. Chaque ligne du tableau contient les informations suivantes :
+
+-Nom 
+-Description
+-Date de création
+-Actions (Gestion du stock, Modifier, Supprimer).
+
+![Liste des épis](.png)
+
+### Ajouter un nouvel epi
+Pour ajouter un nouvel epi, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
+
+
+## Gestion des packages
+
+Cette section permet de consulter la liste des epis enregistrés dans le système. Chaque ligne du tableau contient les informations suivantes :
+
+-Nom 
+-Nombre de epis
+-Date de création
+-Actions
+
+![Liste des packages](.png)
+
+### Ajouter un nouveau package
+Pour ajouter un nouveau package, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
+
+
+# Gestion des fournisseurs 
+
+Cette section permet de consulter la liste des fournisseurs enregistrés dans le système. Chaque ligne du tableau contient les informations suivantes :
+
+-Nom 
+-Contacte
+-Adresse
+-Date de création
+-Actions
+
+![Liste des fournisseurs](.png)
+
+### Ajouter un nouveau fournisseur
+Pour ajouter un nouveau fournisseur, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
+
+
+# Journal d'activité
+
+Cette section permet de consulter la liste de journal d'activités enregistrés dans le système. 
+
+![Liste des journaux d'activités](.png)

@@ -1208,7 +1208,7 @@ La liste affiche les informations suivantes pour l'utilisateur recherché:
 - **Role** : Le rôle de l'utilisateur.
 - **Statut** : Le statut de l'utilisateur recherché.
 0
-!0[Liste des utilisateurs](.png)
+!0[Liste des utilisateurs](userlist.png)
 
 ### Ajouter un utilisateur
 Pour ajouter une nouvel utilisateur, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire de création et ensuite vous cliquerez sur le bouton "Enregistrer"
@@ -1223,7 +1223,7 @@ La page de liste des rôles affiche tous les rôles en attente dans un tableau. 
 - **Nombre de permisions**
 - **Actions** 
 
-![Liste des rôles](.png)
+![Liste des rôles](rolelist.png)
 
 ### Filtres de recherche
 
@@ -1274,7 +1274,7 @@ La liste affiche les informations suivantes pour la grille docker recherchée:
 - **Type jour** : Le type jour.
 - **Taux** : Le taux de la grille docker.
 
-![Liste grille docker](.png)
+![Liste grille docker](grille.png)
 
 ### Ajouter une nouvelle grille docker
 Pour ajouter une nouvelle grille docker, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
@@ -1304,7 +1304,7 @@ La liste affiche les informations suivantes pour le barème tâcheron recherché
 - **Nature produit** : La nature du produit.
 - **Prix unitaire** : Le prix unitaire.
 
-![Liste des barèmes tâcherons](.png)
+![Liste des barèmes tâcherons](tacheronlist.png)
 
 ### Ajouter un nouveau barème tâcheron
 Pour ajouter un nouveau barème tâcheron, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
@@ -1339,7 +1339,7 @@ La liste affiche les informations suivantes pour l'équipe tâcheron recherchée
 - **Prénom responsable** : Le prénom du responsable.
 - **Téléphone** : Le numéro de téléphone.
 
-![Liste des équipes tâcherons](.png)
+![Liste des équipes tâcherons](teamron.png)
 
 ### Ajouter une nouvelle équipe tâcheron
 Pour ajouter une nouvelle équipe tâcheron, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
@@ -1375,7 +1375,7 @@ La liste affiche les informations suivantes pour l'équipe tâcheron recherchée
 - **Date** : La date d'enrégistrement.
 - **Statut** : Le statut de l'équipe.
 
-![Liste des équipes types docker](.png)
+![Liste des équipes types docker](teamdocker.png)
 
 ### Ajouter une nouvelle équipe type docker
 Pour ajouter une nouvelle équipe type docker, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
@@ -1414,7 +1414,7 @@ La liste affiche les informations suivantes pour le paramétrage système recher
 - **Date** : La date d'enrégistrement.
 - **Statut** : Le statut du paramétrage système.
 
-![Liste des paramétrages sytème](.png)
+![Liste des paramétrages sytème](parasys.png)
 
 ### Ajouter un nouveau paramétrage système
 Pour ajouter un nouveau paramétrage système, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
@@ -1431,7 +1431,7 @@ Cette section permet de consulter la liste des epis enregistrés dans le systèm
 -Date de création
 -Actions (Gestion du stock, Modifier, Supprimer).
 
-![Liste des épis](.png)
+![Liste des épis](epiges.png)
 
 ### Ajouter un nouvel epi
 Pour ajouter un nouvel epi, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
@@ -1446,10 +1446,24 @@ Cette section permet de consulter la liste des epis enregistrés dans le systèm
 -Date de création
 -Actions
 
-![Liste des packages](.png)
+![Liste des packages](packages.png)
 
 ### Ajouter un nouveau package
 Pour ajouter un nouveau package, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
+
+
+# Gestion des marques
+
+Cette section permet de consulter la liste des marques enregistrées dans le système. Chaque ligne du tableau contient les informations suivantes :
+
+-Nom 
+-Date de création
+-Actions
+
+![Liste des marques](marqueges.png)
+
+### Ajouter un nouvelle marque
+Pour ajouter une nouvelle marque, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
 
 
 # Gestion des fournisseurs 
@@ -1462,7 +1476,7 @@ Cette section permet de consulter la liste des fournisseurs enregistrés dans le
 -Date de création
 -Actions
 
-![Liste des fournisseurs](.png)
+![Liste des fournisseurs](saler.png)
 
 ### Ajouter un nouveau fournisseur
 Pour ajouter un nouveau fournisseur, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
@@ -1472,4 +1486,4 @@ Pour ajouter un nouveau fournisseur, cliquez sur le bouton d'ajout "Ajouter" en 
 
 Cette section permet de consulter la liste de journal d'activités enregistrés dans le système. 
 
-![Liste des journaux d'activités](.png)
+![Liste des journaux d'activités](journal.png)
